@@ -1,0 +1,1 @@
+<view class="bzcontent data-v-a6e22d78"><view class="icon data-v-a6e22d78"><image src="{{item.picurl}}" mode="widthFix" class="data-v-a6e22d78"></image></view><view class="title data-v-a6e22d78">{{''+item.title+''}}</view></view>

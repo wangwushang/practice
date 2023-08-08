@@ -1,0 +1,94 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		}
+	    ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/yulan/yulan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/yingshi/yingshi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "剧情取图",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#00AEFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/videoDetail/videoDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#00AEFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/tuiguang/tuiguang",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绑定推广码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shoucang/shoucang",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "图库",
+		"navigationBarBackgroundColor": "#7275fb",
+		"backgroundColor": "#f8f8f8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#9695A8",
+		"selectedColor": "#00AEFF",
+		"backgroundColor": "#f8f8f8",
+		"borderStyle": "black",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/index1.png",
+				"selectedIconPath": "static/tabbar/index2.png"
+			},{
+				"text": "个人",
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tabbar/my1.png",
+				"selectedIconPath": "static/tabbar/my2.png"
+			}
+		]
+	}
+}

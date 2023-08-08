@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "bz-button": "/components/bzButton/bzButton"
+  }
+}

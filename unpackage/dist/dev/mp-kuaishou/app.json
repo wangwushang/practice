@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/yulan/yulan",
+    "pages/yingshi/yingshi",
+    "pages/videoDetail/videoDetail",
+    "pages/tuiguang/tuiguang",
+    "pages/shoucang/shoucang"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "图库",
+    "navigationBarBackgroundColor": "#7275fb",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#9695A8",
+    "selectedColor": "#00AEFF",
+    "backgroundColor": "#f8f8f8",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/index1.png",
+        "selectedIconPath": "static/tabbar/index2.png"
+      },
+      {
+        "text": "个人",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tabbar/my1.png",
+        "selectedIconPath": "static/tabbar/my2.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
